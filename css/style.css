@@ -11,6 +11,7 @@
     --color_text-primary: #5cc2f1;
     --color_text-secundary: #0C080A;
     --color_text-tertiary: #afe1f5;
+    --color_text-tertiary2: white;
     --color_btn-primary: #0d0247;
     --main_color-primary: #a1bbeb;
     --main_color-secundary:#8da4f0;
@@ -139,9 +140,15 @@ header {
     color: var(--color_text-secundary);
 }
 
+.tex_cover h3{
+    font-size: 50px;
+    margin-top:  80px;
+    color: var(--color_text-secundary);
+}
+
 .text_cover p{
     font-size: var(--text_paragraph);
-    margin-top:80px;
+    margin-top:50px;
     color: var(--color_text-secundary);
 }
 
@@ -273,6 +280,27 @@ header {
     color: var(--color_text-secundary);
 }
 
+.btn__text{
+    display: block;
+    width: 150px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 500;
+    background: var(--color_btn-primary) ;
+    color:white;
+    border-radius: 8px;
+    border: 2px solid var(--color_btn-primary);
+    cursor:pointer;
+    transition:all 300ms;
+}
+
+.btn__text_about{
+    background: transparent;
+    border: 2px solid var(--color_btn-primary);
+    color: var(--color_btn-secundary);
+    color: #0C080A;
+}
 
 .image__about{
     width: 100%;
@@ -285,3 +313,136 @@ header {
 }
 
 /*End Sobre Nosotros*/
+
+/*nuestros servicios*/
+
+.container__card-secundary{
+    background: var(--color_text-tertiary);
+    padding-top: 100px;
+}
+
+.card__secundary{
+    background: var(--color_text-tertiary);
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.text__card-secundary{
+    max-width: 800px;
+    margin: auto;
+}
+
+.text__card-secundary p{
+    color: var(--color_text-tertiary2);
+    letter-spacing: 4px;
+    font-size: var(--text_paragraph);
+    font-weight: 500;
+}
+
+.text__card-secundary h1{
+    font-size: var(--text_size_title);
+    font-weight: 600;
+    color: var(--color_text-secundary);
+}
+
+.container__box-cardSecundary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.box__card-secundary{
+    max-width: 350px;
+    padding: 50px 30px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    margin: 14px;
+    transition: all 300ms;
+}
+
+.box__card-secundary:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+}
+
+.box__card-secundary h2{
+    font-size: var(--text_title_card);
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.box__card-secundary p{
+    margin-top: 20px;
+}
+.box__card-secundary img{
+    width: 80px;
+    margin-right: 100px;
+    margin-left: 50px;
+    justify-content: center;
+}
+/*end nuestros servicios*/
+
+/*nuestros proyecos*/
+.container__card-tertiary{
+    background: var(--background-color);
+    padding-top: 100px;
+}
+
+.card__tertiary{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.text__card-tertiary{
+    max-width: 800px;
+    margin: auto;
+}
+
+.text__card-tertiary p{
+    color: var(--color_text-tertiary2);
+    letter-spacing: 4px;
+    font-size: var(--text_paragraph);
+    font-weight: 500;
+}
+
+.text__card-tertiary h1{
+    font-size: var(--text_size_title);
+    font-weight: 600;
+    color: var(--color_text-secundary);
+}
+
+.container__box-cardTertiary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.box__card-tertiary{
+    max-width: 350px;
+    padding: 60px 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    margin: 14px;
+    transition: all 300ms;
+}
+
+.box__card-tertiary:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+}
+
+.box__card-tertiary h2{
+    font-size: var(--text_title_card);
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.box__card-tertiary p{
+    margin-top: 20px;
+}
