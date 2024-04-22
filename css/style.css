@@ -30,6 +30,7 @@ header {
     height: 100px;
     position: fixed;
     z-index: 100;
+    background-color: var(--main_color-secundary);
 }
 
 .container_header {
@@ -40,6 +41,7 @@ header {
     justify-content: center;
     align-items: center;
     padding: 0px 20px;
+    
 }
 
 .logo {
@@ -316,13 +318,11 @@ header {
 
 /*nuestros servicios*/
 
-.container__card-secundary{
-    background: var(--color_text-tertiary);
+.container__card-Secundary{
     padding-top: 100px;
 }
 
-.card__secundary{
-    background: var(--color_text-tertiary);
+.card__Secundary{
     max-width: 1200px;
     margin: auto;
     text-align: center;
@@ -334,14 +334,15 @@ header {
     margin: auto;
 }
 
-.text__card-secundary p{
-    color: var(--color_text-tertiary2);
+.text__card-Secundary p{
+    color: var(--color_text-primary);
     letter-spacing: 4px;
     font-size: var(--text_paragraph);
     font-weight: 500;
+    justify-content: center;
 }
 
-.text__card-secundary h1{
+.text__card-Secundary h1{
     font-size: var(--text_size_title);
     font-weight: 600;
     color: var(--color_text-secundary);
@@ -356,7 +357,7 @@ header {
 
 .box__card-secundary{
     max-width: 350px;
-    padding: 50px 30px;
+    padding: 60px 40px;
     border: 1px solid #e6e6e6;
     border-radius: 20px;
     margin: 14px;
@@ -377,6 +378,7 @@ header {
 .box__card-secundary p{
     margin-top: 20px;
 }
+
 .box__card-secundary img{
     width: 80px;
     margin-right: 100px;
@@ -387,7 +389,7 @@ header {
 
 /*nuestros proyecos*/
 .container__card-tertiary{
-    background: var(--background-color);
+    background: #c8d6f548;
     padding-top: 100px;
 }
 
@@ -400,11 +402,11 @@ header {
 
 .text__card-tertiary{
     max-width: 800px;
-    margin: auto;
+    margin:auto;
 }
 
 .text__card-tertiary p{
-    color: var(--color_text-tertiary2);
+    color: var(--color_text-secundary);
     letter-spacing: 4px;
     font-size: var(--text_paragraph);
     font-weight: 500;
@@ -419,30 +421,103 @@ header {
 .container__box-cardTertiary{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:right;
     margin-top: 40px;
 }
 
 .box__card-tertiary{
     max-width: 350px;
-    padding: 60px 40px;
+    padding:  60px 30px;
     border: 1px solid #e6e6e6;
-    border-radius: 20px;
+    border-radius: 40px;
     margin: 14px;
     transition: all 300ms;
+    background-image: url(https://get.wallhere.com/photo/children-love-teddy-bears-photography-morning-Person-little-girl-romance-child-woman-photograph-portrait-photography-interaction-199068.jpg);
+    background-size:cover;
+    background-repeat: repeat;
+    
+    
+}
+
+.box__card-tertiary1{
+    max-width: 350px;
+    padding: 60px 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 40px;
+    margin: 14px;
+    transition: all 300ms;
+    background-image: url(https://s.yimg.com/ny/api/res/1.2/aDdzEfw8uRf9wn9SVxpT6g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIxNjA7aD0yMTYwO2NmPXdlYnA-/https://media.zenfs.com/es/animal_mx_205/9944f5d4fdbc7f9437fbd47a44fda524);
+    background-size:cover;
+    background-repeat: repeat;
+    
+    
+}
+
+.box__card-tertiary2{
+    max-width: 350px;
+    padding: 60px 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 40px;
+    margin: 14px;
+    transition: all 300ms;
+    background-image: url(https://img.freepik.com/fotos-premium/foto-oso-peluche-abrazando-persona-abrazando-oso-peluche-gigante-rodeado-concepto-idea-escena-creativa_655090-938122.jpg?w=360);
+    background-size:cover;
+    background-repeat: repeat;
+    
+    
 }
 
 .box__card-tertiary:hover{
     border: 1px solid transparent;
     box-shadow: var(--box_shadow-primary);
+    box-decoration-break: slice;
+
+}
+.box__card-tertiary1:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+
+}
+.box__card-tertiary2:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+
 }
 
 .box__card-tertiary h2{
     font-size: var(--text_title_card);
-    margin-top: 40px;
-    font-weight: 500;
+    font-weight: 600;
+    text-align:left;
+    color: var(--color_text-tertiary2)
 }
+.box__card-tertiary1 h2{
+    font-size: var(--text_title_card);
+    font-weight: 600;
+    text-align:left;
+    color: var(--color_text-tertiary2)
+
+}
+.box__card-tertiary2 h2{
+    font-size: var(--text_title_card);
+    font-weight: 600;
+    text-align:left;
+    
+}
+
 
 .box__card-tertiary p{
     margin-top: 20px;
+    text-align:left;
+    color: var(--color_text-tertiary2)
+}
+.box__card-tertiary1 p{
+    margin-top: 20px;
+    text-align:left;
+    color: var(--color_text-tertiary2)
+    
+}
+.box__card-tertiary2 p{
+    margin-top: 20px;
+    text-align:left;
+    
 }
