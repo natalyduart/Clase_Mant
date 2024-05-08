@@ -320,6 +320,7 @@ header {
 
 .container__card-Secundary{
     padding-top: 100px;
+    padding: 100px 50px;
 }
 
 .card__Secundary{
@@ -391,6 +392,7 @@ header {
 .container__card-tertiary{
     background: #c8d6f548;
     padding-top: 100px;
+    padding: 100px 50px;
 }
 
 .card__tertiary{
@@ -488,13 +490,13 @@ header {
     font-size: var(--text_title_card);
     font-weight: 600;
     text-align:left;
-    color: var(--color_text-tertiary2)
+    color: var(--color_text-tertiary2);
 }
 .box__card-tertiary1 h2{
     font-size: var(--text_title_card);
     font-weight: 600;
     text-align:left;
-    color: var(--color_text-tertiary2)
+    color: var(--color_text-tertiary2);
 
 }
 .box__card-tertiary2 h2{
@@ -508,12 +510,12 @@ header {
 .box__card-tertiary p{
     margin-top: 20px;
     text-align:left;
-    color: var(--color_text-tertiary2)
+    color: var(--color_text-tertiary2);
 }
 .box__card-tertiary1 p{
     margin-top: 20px;
     text-align:left;
-    color: var(--color_text-tertiary2)
+    color: var(--color_text-tertiary2);
     
 }
 .box__card-tertiary2 p{
@@ -521,3 +523,170 @@ header {
     text-align:left;
     
 }
+/*end nuestros proyectos*/
+
+/*nuestros equipo*/
+.container__card-cuaternary{
+    background: #ffff;
+    padding-top: 50px;
+    padding: 100px 50px;
+}
+
+.card__cuaternary{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.text__card-cuaternary{
+    max-width: 800px;
+    margin:auto;
+}
+
+.text__card-cuaternary p{
+    color: var(--color_text-secundary);
+    letter-spacing: 4px;
+    font-size: var(--text_paragraph);
+    font-weight: 500;
+    padding-top: 50px;
+}
+
+.text__card-cuaternary h1{
+    font-size: var(--text_size_title);
+    font-weight: 600;
+    color: var(--color_text-secundary);
+}
+
+.container__box-cardCuaternary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:right;
+    margin-top: 40px;
+}
+
+.box__card-cuaternary{
+    max-width: 250px;
+    padding:  60px 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 40px;
+    margin: 14px;
+    transition: all 300ms;
+    background-image: url(https://static.cegos.es/content/uploads/2023/03/01165224/GettyImages-1300321639.jpg.webp);
+    background-size:250px 250px;
+    background-repeat:no-repeat;   
+}
+
+.box__card-cuaternary1{
+    max-width: 250px;
+    padding: 60px 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 40px;
+    margin: 14px;
+    transition: all 300ms;
+    background-image: url(https://www.mundopsicologos.com/site/article/62173/52366/13-habitos-que-te-ayudaran-a-ser-una-persona-mas-feliz-0_ai1.jpg);
+    background-size:250px 250px;
+    background-repeat:no-repeat;  
+}
+
+.box__card-cuaternary2{
+    max-width: 250px;
+    padding: 60px 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 40px;
+    margin: 14px;
+    transition: all 300ms;
+    background-image: url(https://pymstatic.com/5844/conversions/personas-emocionales-wide_webp.webp);
+    background-size:250px 250px;
+    background-repeat:no-repeat;   
+}
+
+.box__card-cuaternary3{
+    max-width: 250px;
+    padding:  60px 30px;
+    border: 1px solid #e6e6e6;
+    border-radius: 40px;
+    margin: 14px;
+    transition: all 300ms;
+    background-image: url(https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size:250px 250px;
+    background-repeat:no-repeat;
+    
+    
+}
+
+.box__card-cuaternary:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+    box-decoration-break: slice;
+
+}
+.box__card-cuaternary1:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+
+}
+.box__card-cuaternary2:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+
+}
+
+.box__card-cuaternary3:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+
+}
+
+.box__card-cuaternary h2{
+    font-size: var(--color_text-secundary);
+    font-weight: 600;
+    text-align:left;
+    color: var(--color_text-secundary);
+    padding-top: 200px;
+}
+.box__card-cuaternary1 h2{
+    font-size: var(--color_text-secundary);
+    font-weight: 600;
+    text-align:left;
+    color: var(--color_text-secundary);
+    padding-top: 200px;
+}
+.box__card-cuaternary2 h2{
+    font-size: var(--color_text-secundary);
+    font-weight: 600;
+    text-align:left;
+    padding-top: 200px;
+}
+
+.box__card-cuaternary3 h2{
+    font-size: var(--color_text-secundary);
+    font-weight: 600;
+    text-align:left;
+    padding-top: 200px;
+}
+
+
+.box__card-cuaternary p{
+    margin-top: 20px;
+    text-align:left;
+    color: var(--color_text-secundary);
+    
+}
+.box__card-cuaternary1 p{
+    margin-top: 20px;
+    text-align:left;
+    color: var(--color_text-secundary);
+    
+}
+.box__card-cuaternary2 p{
+    margin-top: 20px;
+    text-align:left;   
+}
+
+.box__card-cuaternary3 p{
+    margin-top: 20px;
+    text-align:left;
+}
+
+/*end nuestros equipo*/
