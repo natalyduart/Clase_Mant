@@ -8,3 +8,11 @@ for (var i=0; i < inputs.length; i++){
         }
     });
 }
+
+function initMap() {
+    var mapOptions = {
+        center: { lat: TU_LATITUD, lng: TU_LONGITUD },
+        zoom: TU_ZOOM
+    };
+    var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+}

@@ -694,95 +694,188 @@ header {
 
 /*Nuestro contacto*/
 
-.formulario {
-    justify-content: center;
-    width: 580px;
-    max-width: 50%;
-    margin: 20px;
-    margin-top: 30px;
-    padding: 20px;
+.content{
+    background: #a3bad3b9;
 }
 
-.formulario__titulo {
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.logo {
     text-align: center;
-    margin-top: 0;
-    color: rgba(0,0,0,0.6);
+    font-size: 3em;
 }
 
-.formulario__input, .formulario__label, .formulario__submit{
+.logo span {
+    color: #7a92a8;
+}
+
+
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background: #a3bad37a;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
     display: block;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
     width: 100%;
-    font-size: 1.3em; 
-}
-
-.formulario__input{
-    padding: 20px;
-    background: transparent;
-    border: 1px solid rgba(0,0,0,0.3);
-    margin-bottom: 40px;
-}
-
-.formulario__label {
-    padding-left: 15px;
-    position: absolute;
-    margin-top: -85px;
-    z-index: -20;
-}
-
-.formulario__submit{
-    background: rgba(0,0,0,0.8);
-    color: white;
-    padding: 10px 20px;
-    cursor: pointer;
+    padding: .7em;
     border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #00000093;
 }
 
-.fijar {
-    margin-top: -135px;
+.contact-form form button {
+    background: #395cbe;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
 }
 
-.container_contacto{
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #808bc9;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+/* CONTACT INFO */
+.contact-img {
+    background: #adbfd388;
+}
+
+.contact-img img{
+    width: 500px;
     justify-content: center;
-    padding-top: 0px;
-    padding-bottom: 100px;
-    background: rgb(228, 232, 252);
 }
 
-.contacto{
+/* LARGE SIZE */
+@media(min-width: 700px) {
+   
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+}
+
+/* CONTACT INFO */
+.contact-info {
+    background-color: var(--main_color-secundary);
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    
+}
+
+
+
+.contact .mapa{
+    height: 500px;
+    width: 400px;
+    margin: 0; 
+    padding: 0;
+    height: 400px;
+    width: 100%;
+
+}
+.pie-pagina{
+    width: 100%;
+    background-color: var(--main_color-secundary);
+}
+.pie-pagina .grupo-1{
+    width: 100%;
     max-width: 1200px;
     margin: auto;
-    margin-top: 100px;
-    display:flex;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 0px 20px;
 }
-
-.tex_contacto{
- width: 100%;
- padding-right: 150px;   
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
 }
-
-.tex_contacto p{
-    color: var(--color_text-secundary);
-    letter-spacing: 4px;
-    font-size: var(--text_paragraph);
-    font-weight: 500;
-    padding-top: 50px;
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
 }
-
-.tex_contacto h1{
-    font-size: var(--text_size_title);
-    font-weight: 600;
-    color: var(--color_text-secundary);
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
 }
-
-
-.image_contacto{
-    
-    width: 50%;
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #8da4f0;
+    text-align: center;
+    transition: all 300ms ease;
 }
-
-.image_contacto img{
-    width: 400px;
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #8da4f0;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
 }
 
